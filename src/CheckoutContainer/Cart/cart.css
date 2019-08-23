@@ -1,0 +1,255 @@
+.cart-container {
+  width: 730px;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 96px;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 40px;
+  box-shadow: 0 0 20px 0px #DCDCDC;
+}
+
+.title-container {
+  width: 454px;
+  height: 60px;
+  left: 12px;
+  position: relative;
+  padding-bottom: 9px;
+}
+
+.bag-container {
+  width: 730px;
+  height: 360px;
+  box-shadow: inset 0px 0px 2px 0px #DCDCDC;
+  overflow: scroll;
+}
+
+.header-container{
+  display: flex;
+  justify-content: left;
+  margin: 0;
+  list-style-type: none;
+}
+
+.header-name.a {
+  /* font-size: 10px */
+  left: -25px;
+  position: relative;
+}
+
+.header-name.b{
+  position: relative;
+  left: 16rem;
+}
+
+.header-name.c{
+  position: relative;
+  left: 25rem;
+}
+
+.total-container {
+  width: 243px;
+  height: 111px;
+  float: right;
+  bottom: 17px;
+  right: 18px;
+  position: relative;
+}
+
+.total-container img {
+  padding-top: 70px;
+}
+
+.total-container p {
+  left: 7px;
+  top: -3px;
+  position: relative;
+}
+
+.continue-button {
+  width: 297px;
+  height: 56px;
+  top: 64px;
+  left: 0px;
+  left: 0px;
+  display: inline-block;
+  position: relative;
+}
+
+.continue-button:hover {
+  cursor: pointer;
+}
+
+.continue-button img {
+  width: 100%;
+  position: relative;
+  bottom: 11px;
+  left: 12px;
+}
+/*===========Cart Items=======*/
+.cart-item {
+  width: 100%;
+  height: 90px;
+}
+
+.cart-img {
+  width: 58px;
+height: 68px;
+margin-left: 14px;
+top: 7px;
+position: relative;
+}
+
+.cart-name {
+  margin-left: 22px;
+  margin-right: 48px;
+  top: -23px;
+  width: 15rem;
+  display: inline-block;
+  position: relative;
+}
+
+.cart-item button, .cart-qty{
+  position: relative;
+  display: inline-block;
+  top: -23px;
+}
+
+.cart-price {
+  position: relative;
+  display: inline-block;
+  top: -23px;
+  margin-left: 148px;
+}
+
+#x{
+  top: -60px;
+  left: 686px;
+  display: inherit;
+}
+
+hr#top {
+  width: 96%;
+  left: 9px;
+  /* position: absolute; */
+  margin-top: 3px;
+  border-color: white;
+}
+hr {
+  width: 96%;
+  left: 11px;
+  /* position: absolute; */
+  margin-top: -20px;
+  border-color: white;
+}
+
+/* ==========Payment==========*/
+
+.payment-container {
+  width: 360px;
+  height: 644px;
+  margin-top: 40px;
+  display: inline-block;
+  float: right;
+  right: 30px;
+  position: relative;
+  border: solid 1px #0F2027;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(120deg, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(189deg, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.payment-container h3 {
+  font-size: 36px;
+  font-family: playfair;
+  font-weight: 900;
+  color: white;
+  position: relative;
+  top: -12px;
+  left: 32px;
+}
+
+.payment-container span {
+  font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 24px;
+/* identical to box height, or 200% */
+letter-spacing: 0.2px;
+color: #FFFFFF;
+}
+.payment-container form {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 24px;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 10rem;
+  left: 18px;
+  width: 90%;
+  text-align: center;
+}
+
+.submit {
+  padding: 1em;
+  border-radius: 10px;
+  background-color: rgb(67, 138, 232);
+  color: white;
+  font-size: 15px;
+  margin-top: 2em;
+  border: none;
+  height: 56px;
+  width: 300px;
+
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+
+  position: relative;
+  left: 14px;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+.name {
+  height: 2rem;
+}
+.card {
+  height: 2rem;
+}
+
+/* ============ Success Page =============== */
+.success-container {
+  display: flex;
+  justify-content: center;
+}
+
+.success-container h1{
+  font-family: lato;
+  position: relative;
+  top: 2em;
+  font-size: 4rem;
+  border: black solid 2px;
+  padding: 3rem 5rem;
+}

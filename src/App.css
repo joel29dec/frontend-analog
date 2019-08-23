@@ -1,0 +1,16 @@
+.wrapper{
+  display:flex;
+  flex-direction: column;
+}
+
+.nav-container{
+  flex: 1;
+}
+
+.body-container{
+  display:flex;
+}
+
+.filter{
+  flex: 1;
+}

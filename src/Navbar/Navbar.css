@@ -1,0 +1,124 @@
+.navbar{
+  display: flex;
+  width: 100%;
+  height: 115px;
+  left: 0px;
+  top: 0px;
+  box-shadow: -16px -10px 15px black;
+  position: sticky;
+  flex: 1;
+  background: white;
+  /* border: 2px solid red; */
+}
+
+.logo-container {
+
+  /* left: 115px;
+  top: 27px; */
+  /* position: relative; */
+  /* border: 2px solid goldenrod; */
+  flex: 1;
+  /* height: 100%; */
+  padding: 15px 0px 15px 15px;
+  display: flex;
+  
+  /* align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+}
+
+.navigation-wrap{
+  /* border: 2px solid pink; */
+  flex: 6;
+  display: flex;
+  flex-direction: row;
+
+}
+.logo-container a{
+  text-decoration: none;
+  display: flex;
+  /* padding:20px; */
+}
+
+.title {
+    /* font-family: HelveticaNeueCyr; */
+  /* font-size: 25px;
+  line-height: 25px; */
+  color: #222222;
+  /* width: 80px;
+  bottom: 43px; */
+  /* left: 68px; */
+  /* margin: 0; */
+  /* border: 2px solid blue; */
+  /* position: relative; */
+  display: flex;
+  
+}
+.logo {
+  /* border: 2px solid purple; */
+  margin: 0px 5px 0px 10px;
+  width: 30%;
+  display: flex;
+  flex: 1;
+}
+
+.navigation {
+  /* position: relative; */
+  /* border: 2px solid green; */
+  /* width: 541px;
+  height: 15px; */
+  /* font-family: Work Sans; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  justify-content: flex-end;
+  /* flex-direction: row; */
+  text-align: right;
+  color: #525252;
+  /* top: 52px;
+  left: 486px; */
+  
+  flex: 6;
+}
+.nav-link{
+  flex: 1;
+  margin: 55px 10px 0px 0px;
+  
+}
+
+.nav-link-text{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.nav-buttons{
+  /* border: 2px solid rgb(89, 224, 11); */
+  margin: 45px 0px 0px 0px;
+  
+  flex: 1;
+}
+
+
+.cart {
+  /* border: 2px solid rgb(89, 224, 11); */
+  margin: 0px 10px 0px 40px;
+  /* position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 1215px;
+  top: 42px; */
+
+}
+
+.search {
+  
+  /* border: 2px solid rgb(89, 224, 11); */
+  /* position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 1254px;
+  top: 42px; */
+}
+
